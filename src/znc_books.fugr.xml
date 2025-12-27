@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group: Books</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZNC_BOOKSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZNC_BOOKS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZNC_FM_SEND_BOOKS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get all books data</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IT_BOOK_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNC_RT_BOOK_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_TYPE_ID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNC_RT_TYPE_ID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_RLS_DATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNC_RT_RLS_DATE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_STATUS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZNC_RT_STATUS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_BOOKS</PARAMETER>
+       <TYP>ZNC_T_BOOK</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_FOUND</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IT_BOOK_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range table for book ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_TYPE_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range table for book type ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_RLS_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range table for book release date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Range table for book status</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_BOOKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Book table</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_FOUND</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Data not found</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

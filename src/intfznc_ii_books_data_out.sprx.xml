@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME>
+     <OBJECT_M>INTF</OBJECT_M>
+     <OBJ_NAME_M>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME_M>
+     <HASH_ID>3C123BC333A3D7B77ED003C1EC4BE42C8A2D45ED</HASH_ID>
+     <ID>&lt;portType&gt; BooksDataOut http://sap.com/Basis/CustomFields/Generated/* http://sap.com/Basis/CustomFields/Generated/*</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>BooksDataOut</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/Basis/CustomFields/Generated/*</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/Basis/CustomFields/Generated/*</IFR_GNSPCE>
+     <GEN_VERS>0001</GEN_VERS>
+     <PREFIX>ZNC_</PREFIX>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>I</DIRECTION>
+     <GEN_APPL>BACKENDMDR</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/Basis/CustomFields/Generated/*</X-ML_NSPCE>
+     <X-ML_NAME>BooksDataOut</X-ML_NAME>
+     <FURTHER_DATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;SOAP_APPL&gt;urn:sap-com:soap:application:esr:server:710&lt;/SOAP_APPL&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHER_DATA>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZNC_CL_BOOKS_DATA_OUT</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZNC_CL_BOOKS_DATA_OUT</OBJ_NAME2>
+     <ID>&lt;CLIM&gt; BooksDataOut http://sap.com/Basis/CustomFields/Generated/* http://sap.com/Basis/CustomFields/Generated/*</ID>
+     <IFR_TYPE>CLIM</IFR_TYPE>
+     <IFR_NAME>BooksDataOut</IFR_NAME>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZNC_CL_BOOKS_DATA_OUT</R3_NAME>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME>
+     <OBJECT1>INTF</OBJECT1>
+     <OBJ_NAME1>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME1>
+     <OBJECT2>INTF</OBJECT2>
+     <OBJ_NAME2>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME2>
+     <ID>&lt;portType&gt; BooksDataOut http://sap.com/Basis/CustomFields/Generated/* http://sap.com/Basis/CustomFields/Generated/*</ID>
+     <IFR_TYPE>portType</IFR_TYPE>
+     <IFR_NAME>BooksDataOut</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>INTF</R3_TYPE>
+     <R3_NAME>ZNC_II_BOOKS_DATA_OUT</R3_NAME>
+     <CATEGORY>ifmmessif</CATEGORY>
+     <DIRECTION>I</DIRECTION>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>POST_BOOKS_DATA</OBJ_NAME1>
+     <OBJECT2>METH</OBJECT2>
+     <OBJ_NAME2>POST_BOOKS_DATA</OBJ_NAME2>
+     <ID>&lt;operation&gt; PostBooksData &lt;portType&gt; BooksDataOut http://sap.com/Basis/CustomFields/Generated/* http://sap.com/Basis/CustomFields/Generated/*</ID>
+     <IFR_TYPE>operation</IFR_TYPE>
+     <IFR_NAME>PostBooksData</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>METH</R3_TYPE>
+     <R3_NAME>POST_BOOKS_DATA</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+     <DIRECTION>I</DIRECTION>
+    </item>
+    <item>
+     <OBJECT>INTF</OBJECT>
+     <OBJ_NAME>ZNC_II_BOOKS_DATA_OUT</OBJ_NAME>
+     <OBJECT1>METH</OBJECT1>
+     <OBJ_NAME1>POST_BOOKS_DATA</OBJ_NAME1>
+     <OBJECT2>PAIM</OBJECT2>
+     <OBJ_NAME2>INPUT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZNC_BOOKS_DATA_OUT_REQUEST</OBJ_NAME_R>
+     <ID>&lt;input&gt; input &lt;operation&gt; PostBooksData &lt;portType&gt; BooksDataOut http://sap.com/Basis/CustomFields/Generated/* http://sap.com/Basis/CustomFields/Generated/*</ID>
+     <IFR_TYPE>PartInput</IFR_TYPE>
+     <IFR_NAME>input</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>PAIM</R3_TYPE>
+     <R3_NAME>INPUT</R3_NAME>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
